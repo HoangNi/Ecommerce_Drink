@@ -5,7 +5,7 @@ class ItemCart extends Component {
     render() {
         return (
             <tr>
-            <td><img src="./../image/detailproduct_1.png" alt="" /></td>
+            <td><img src="./../image/hotproduct_4.png" alt="" /></td>
             <td>Rượu vang đỏ</td>
             <td>
                 <p>345.000<sup>đ</sup></p>

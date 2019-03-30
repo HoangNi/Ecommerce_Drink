@@ -1576,7 +1576,8 @@
 }
 .detailproduct__img__box img {
   margin-top: 40px;
-  width: 100%;
+  margin-left: 90px;
+  width: 40%;
 }
 .detailproduct__describition i {
   color: #818181;
@@ -1673,6 +1674,9 @@
 }
 .cart__table td {
   padding: 20px 70px 20px 70px;
+}
+.cart__table td img{
+  width: 66%;
 }
 .cart__table td p {
   color: #e6ae48;

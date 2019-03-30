@@ -52,9 +52,9 @@ class Comment extends Component {
                         <div className="col-lg-6" />
                         <div className="col-lg-6">
                             <ul><i className="fas fa-caret-left" />
-                                <li><a href="#">1</a></li>
-                                <li><a href="#">2</a></li>
-                                <li><a href="#">3</a></li><i className="fas fa-caret-right" />
+                                <li><a href="/">1</a></li>
+                                <li><a href="/">2</a></li>
+                                <li><a href="/">3</a></li><i className="fas fa-caret-right" />
                             </ul>
                         </div>
                     </div>

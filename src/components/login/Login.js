@@ -9,7 +9,7 @@ class Login extends Component {
                 <div className="login" id="login">
                     <div className="container">
                         <div className="login__title">
-                            <p><a href="#">Trang chủ/<span>Giới thiệu</span></a></p>
+                            <p><a href="/">Trang chủ/<span>Giới thiệu</span></a></p>
                             <div className="row">
                                 <div className="col-lg-10">
                                     <h3>đăng nhập</h3><img src="./../image/titleleft-dark.png" alt="" />

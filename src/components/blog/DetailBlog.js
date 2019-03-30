@@ -13,7 +13,7 @@ class DetailBlog extends Component {
                 <section className="detailblog" id="detailblog">
         <div className="container">
           <div className="detailblog__title">
-            <p><a href="#">Trang chủ/<span>Blog</span></a></p>
+            <p><a href="/">Trang chủ/<span>Blog</span></a></p>
             <h3>blog</h3><img src="image/titleleft-dark.png" alt />
           </div>
           <div className="row">

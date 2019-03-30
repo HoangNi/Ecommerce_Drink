@@ -29,16 +29,16 @@ class Contact extends Component {
                                         </div>
                                     </div>
                                     <div className="contact__infor__text">
-                                        <p><i className="fas fa-map-marker-alt">  Tầng 4,Tòa nhà HaNoi Group Số 442 Đội Cần, P.Cộng Vị, Quận Ba Đình, Hà Nội.</i><br /><i className="fas fa-phone-volume">  (08) 6608 9686</i><br /><i className="fas fa-envelope"><a href="#">  Support@bizweb.vn</a></i></p>
+                                        <p><i className="fas fa-map-marker-alt">  Tầng 4,Tòa nhà HaNoi Group Số 442 Đội Cần, P.Cộng Vị, Quận Ba Đình, Hà Nội.</i><br /><i className="fas fa-phone-volume">  (08) 6608 9686</i><br /><i className="fas fa-envelope"><a href="/">  Support@bizweb.vn</a></i></p>
                                     </div>
                                     <div className="contact__infor__follow">
                                         <h3>follow us:</h3>
                                         <ul>
-                                            <li><a href="#"><i className="fas fa-dove" /></a></li>
-                                            <li><a href="#"><i className="fab fa-google-plus-g" /></a></li>
-                                            <li><a href="#"><i className="fas fa-volleyball-ball" /></a></li>
-                                            <li><a href="#"><i className="fab fa-invision" /></a></li>
-                                            <li><a href="#"><i className="fas fa-wifi" /></a></li>
+                                            <li><a href="/"><i className="fas fa-dove" /></a></li>
+                                            <li><a href="/"><i className="fab fa-google-plus-g" /></a></li>
+                                            <li><a href="/"><i className="fas fa-volleyball-ball" /></a></li>
+                                            <li><a href="/"><i className="fab fa-invision" /></a></li>
+                                            <li><a href="/"><i className="fas fa-wifi" /></a></li>
                                         </ul>
                                     </div>
                                 </div>

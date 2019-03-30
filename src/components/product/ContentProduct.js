@@ -3,9 +3,14 @@ import MenuProduct from './MenuProduct';
 import Paging from './Paging';
 import BoxProduct from './BoxProduct';
 import { Link } from 'react-router-dom';
-
+import { connect } from 'react-redux';
+import { getListAll } from '../../actions/index';
 class ContentProduct extends Component {
+    componentDidMount() {
+        this.props.getListAll()
+    }
     render() {
+
         return (
             <div className="product" id="product">
                 <div className="container">
@@ -18,18 +23,14 @@ class ContentProduct extends Component {
                             <MenuProduct />
                         </div>
                         <div className="col-lg-8">
-                           <Paging />
+                            <Paging />
                             <div className="product__box">
                                 <div className="row">
-                                    <BoxProduct />
-                                    <BoxProduct />
-                                    <BoxProduct />
-                                    <BoxProduct />
-                                    <BoxProduct />
-                                    <BoxProduct />
-                                    <BoxProduct />
-                                    <BoxProduct />
-                                    <BoxProduct />
+                                    {
+                                        this.props.data.slice(0, 8).map(data => (
+                                            <BoxProduct key={data.id} data={data} />
+                                        ))
+                                    }
                                 </div>
                             </div>
                         </div>
@@ -39,5 +40,9 @@ class ContentProduct extends Component {
         );
     }
 }
-
-export default ContentProduct;
+const mapStateToProps = (state) => {
+    return {
+        data: state.product.all,
+    }
+}
+export default connect(mapStateToProps, { getListAll })(ContentProduct);

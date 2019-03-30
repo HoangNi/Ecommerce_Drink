@@ -9,7 +9,7 @@ class Register extends Component {
                 <div class="register" id="register">
                     <div class="container">
                         <div class="register__title">
-                            <p><a href="#">Trang chủ/<span>Giới thiệu</span></a></p>
+                            <p><a href="/">Trang chủ/<span>Giới thiệu</span></a></p>
                             <div class="row">
                                 <div class="col-lg-10">
                                     <h3>đăng ký</h3><img src="./../image/titleleft-dark.png" alt="" />

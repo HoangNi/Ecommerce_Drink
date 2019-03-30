@@ -4,7 +4,7 @@ class DescriptionProduct extends Component {
     render() {
         return (
             <div className="detailproduct__describition">
-                <h2>rượu nho năm 1987</h2><img src="./../image/titleleft-dark.png" alt />
+                <h2>rượu nho năm 1987</h2><img src="./../image/titleleft-dark.png" alt="true" />
                 <h5>330.000<sup>đ</sup></h5>
                 <hr /><i className="fas fa-star" /><i className="fas fa-star" /><i className="fas fa-star" /><i className="fas fa-star-half-alt" /><i className="far fa-star">1 Review(S) | Add Your Review</i>
                 <hr />
@@ -22,7 +22,7 @@ class DescriptionProduct extends Component {
                     </div>
                 </div>
                 <h4>mô tả</h4>
-                <p>Một hợp chất có trong rượu vang được gọi là resveratro có khả năng làm tăng tối đa tuổi thọ. Resveratro còn có khả năng ngăn chặn mật độ oxy hóa của protein béo.</p><img src="./../image/share.png" alt />
+                <p>Một hợp chất có trong rượu vang được gọi là resveratro có khả năng làm tăng tối đa tuổi thọ. Resveratro còn có khả năng ngăn chặn mật độ oxy hóa của protein béo.</p><img src="./../image/share.png" alt="true" />
             </div>
         );
     }

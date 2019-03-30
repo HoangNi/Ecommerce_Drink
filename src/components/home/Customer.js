@@ -12,7 +12,7 @@ class Customer extends Component {
                         rượu nhẹ, bột ga đầy trắng mịn.
                         Van nổ Thăng Long ...
                 </p>
-                    <a href="#">Read more</a>
+                    <a href="/">Read more</a>
                     <div className="customer__card">
                         <div className="customer__card__img"><img src="./../image/avatar_1.png" alt="avatar" /></div>
                         <div className="customer__card__infor">

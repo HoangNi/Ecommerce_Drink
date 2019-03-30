@@ -9,7 +9,7 @@ class About extends Component {
                 <div className="content" id="content">
                     <div className="container">
                         <div className="content__title">
-                            <p><a href="#">Trang chủ/<span>Giới thiệu</span></a></p>
+                            <p><a href="/">Trang chủ/<span>Giới thiệu</span></a></p>
                             <h3>giới thiệu</h3><img src="./../image/titleleft-dark.png" alt="" />
                         </div>
                         <div className="row">

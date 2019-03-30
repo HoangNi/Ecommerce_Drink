@@ -9,7 +9,7 @@ class InfoCutomer extends Component {
                 <i className="fas fa-map-marker-alt">  Tầng 4,Tòa nhà HaNoi Group Số 442 Đội Cần, P.Cộng Vị, Quận Ba ĐÌnh, Hà Nội.</i>
                 <br></br>
                 <i className="fas fa-phone-volume">  (08) 6608 9686  </i>
-                <br></br><a href="#">Chi tiết đơn hàng</a>
+                <br></br><a href="/">Chi tiết đơn hàng</a>
             </div>
         );
     }

@@ -42,7 +42,7 @@ class TagBlog extends Component {
                     </div>
                 </div>
                 <div className="detailblog__tag">
-                    <h4>blog tags</h4><a href="#">Đồng hồ</a><a href="#">Túi</a><br /><br /><a href="#">Phụ kiện</a><a href="#">Giày</a><a href="#">Sandal</a><a href="#">Áo sơ mi</a><br /><br /><a href="#">Nước hoa</a><a href="#">Trẻ em</a><a href="#">Thời trang nữ</a>
+                    <h4>blog tags</h4><a href="/">Đồng hồ</a><a href="/">Túi</a><br /><br /><a href="/">Phụ kiện</a><a href="/">Giày</a><a href="/">Sandal</a><a href="/">Áo sơ mi</a><br /><br /><a href="/">Nước hoa</a><a href="/">Trẻ em</a><a href="/">Thời trang nữ</a>
                 </div>
                 <div className="detailblog__video">
                     <h4>latest video</h4><img src="image/video.png" alt />

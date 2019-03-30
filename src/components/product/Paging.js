@@ -13,11 +13,11 @@ class Paging extends Component {
                     <div className="col-lg-6"></div>
                     <div className="col-lg-4">
                         <ul><i className="fas fa-caret-left"></i>
-                            <li><a href="#">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><a href="#">4</a></li>
-                            <li><a href="#">5</a></li><i className="fas fa-caret-right"></i>
+                            <li><a href="/">1</a></li>
+                            <li><a href="/">2</a></li>
+                            <li><a href="/">3</a></li>
+                            <li><a href="/">4</a></li>
+                            <li><a href="/">5</a></li><i className="fas fa-caret-right"></i>
                         </ul>
                     </div>
                 </div>

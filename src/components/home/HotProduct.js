@@ -4,12 +4,12 @@ import ItemHotProduct from './ItemHotProduct';
 class HotProduct extends Component {
     render() {
         return (
-            <div class="hotproduct" id="hotproduct">
-                <div class="container">
-                    <div class="hotproduct__title">
-                        <h1 class="title">Sản phẩm bán chạy</h1><img src="image/title_dark.png" alt="title_dark" />
+            <div className="hotproduct" id="hotproduct">
+                <div className="container">
+                    <div className="hotproduct__title">
+                        <h1 className="title">Sản phẩm bán chạy</h1><img src="image/title_dark.png" alt="title_dark" />
                     </div>
-                    <div class="row">
+                    <div className="row">
                         <ItemHotProduct />
                         <ItemHotProduct />
                         <ItemHotProduct />
